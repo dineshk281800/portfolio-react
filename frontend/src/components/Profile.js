@@ -52,11 +52,11 @@ const Profile = () => {
                         ))}
                     </div>
                     <div className="bostami-parsonal-info-btn">
-                        <a className="btn-1" href="./images/resume FEB24 (1).pdf" download>
+                        <a className="btn-1" href="./images/resume Apr24.pdf" download>
                             <span className="icon download">
                                 <i className="fa-solid fa-download"></i>
                             </span>
-                            Download Cv
+                            Download CV
                         </a>
                     </div>
                 </div>

@@ -101,6 +101,11 @@
     padding-bottom: 6px;
 } */
 
+#msg {
+    color: #237e13;
+    display: block;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section-wrapper:is(.pr-60) {
         padding-right: 40px;
@@ -121,7 +126,16 @@
     }
 
     .tabLinks {
-        font-size: 1.3rem;
+        margin-right: 4rem;
+        font-size: 1.2rem;
+    }
+
+    .tabLinks::after {
+        bottom: -7px;
+    }
+
+    .tabTitles {
+        margin: 7px 0;
     }
 
     .textContainer p,
@@ -131,7 +145,7 @@
     }
 
     .detailsContainer {
-        height: 15rem;
+        height: 16rem;
     }
 
     .detailHeading {
@@ -142,5 +156,52 @@
     .ul li {
         padding-left: 1rem;
         font-size: 1rem;
+    }
+
+    .skillsContainer ul li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .tabLinks {
+        margin-right: 2rem;
+        font-size: 1rem;
+    }
+
+    .tabLinks::after {
+        bottom: -5px;
+    }
+
+    .tabTitles {
+        margin: 5px 0;
+    }
+
+    .textContainer p,
+    .educationDetails,
+    .detailsContainer p {
+        font-size: 14px;
+    }
+
+    .bostami-page-title-wrap p {
+        font-size: 14px;
+    }
+
+    .detailsContainer {
+        height: 19rem;
+    }
+
+    .ul li {
+        padding-left: 14px;
+        font-size: 14px;
+    }
+
+    .detailHeading {
+        font-size: 1rem;
+        line-height: 13px;
+    }
+
+    .skillsContainer ul li {
+        font-size: 14px;
     }
 }

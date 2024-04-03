@@ -173,6 +173,11 @@
     border: 1px solid transparent;
 }
 
+.btn-1:hover {
+    color: #E60E5C;
+    background-color: #f3f6f6;
+}
+
 .btn-1,
 .btn-1 .icon {
     display: inline-block;
@@ -183,9 +188,13 @@
     transition: .3s;
 }
 
-.download {
+/* .download {
     color: rgb(255, 255, 255);
 }
+
+.icon.download:hover {
+    color: #E60E5C;
+} */
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
     .bostami-parsonal-info-area {
