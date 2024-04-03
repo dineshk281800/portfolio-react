@@ -96,20 +96,20 @@ const Works = () => {
             "image": "./image/Weather.png",
             "level": "Intermediate"
         },
-        {
-            "title": "MY WORK",
-            "topic": "LinkedIn Clone",
-            "project": "Social-Media Website ",
-            "description": <ul>
-                <li>I create a basic LinkedIn UI with responsiveness using media query. </li>
-            </ul>,
-            "website": "https://linkedin-website-clone281800.netlify.app/",
-            "domain": " www.LinkedIn-clone.com",
-            "github": "https://github.com/dineshk281800/LinkedIn-Clone-website",
-            "language": "HTML, CSS",
-            "image": "./image/LinkedInImg.png",
-            "level": "Beginner"
-        },
+        // {
+        //     "title": "MY WORK",
+        //     "topic": "LinkedIn Clone",
+        //     "project": "Social-Media Website ",
+        //     "description": <ul>
+        //         <li>I create a basic LinkedIn UI with responsiveness using media query. </li>
+        //     </ul>,
+        //     "website": "https://linkedin-website-clone281800.netlify.app/",
+        //     "domain": " www.LinkedIn-clone.com",
+        //     "github": "https://github.com/dineshk281800/LinkedIn-Clone-website",
+        //     "language": "HTML, CSS",
+        //     "image": "./image/LinkedInImg.png",
+        //     "level": "Beginner"
+        // },
         {
             "title": "MY WORK",
             "topic": "YouTube Clone",
