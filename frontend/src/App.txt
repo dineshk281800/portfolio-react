@@ -1,0 +1,389 @@
+
+import './App.css';
+
+function App() {
+  return (
+    <>
+      <div class="page-wrapper home-1" id="home-1">
+        <div class="bostami-header-area mb-30 ">
+          <div class="container">
+            <div class="bostami-header-wrap">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <div class="bostami-header-logo">
+                    <a class="site-logo" href="/">
+                      <img alt="logo" loading="lazy" width="153" height="32" decoding="async" data-nimg="1" style="color:transparent" src="images/dinesh1.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="bostami-header-menu-btn text-right">
+                    <div class="dark-btn dark-btn-stored mode-btn">
+                      <i class="moonicon fa-solid fa-moon"></i>
+                    </div>
+                    <div class="menu-btn toggle_menu false ">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-menu-wrap">
+              <div class="mobile-menu mobile_menu false ">
+                <div class="mean-bar">
+                  <a href="#nav" class="meanmenu-reveal" style="right:0px;left:auto;display:inline">
+                    <span>
+                      <span>
+                        <span>
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                  <nav class="mean-nav">
+                    <ul>
+                      <li class=" false active  " style="padding-top:5px;padding-bottom:4px">
+                        <a href="/home-1">
+                          <span>
+                            <i style="font-size:18px;margin-right:10px" class="fa-light fa-user"></i>
+                          </span>
+                          About
+                        </a>
+                      </li>
+                      <li class=" false false  " style="padding-top:5px;padding-bottom:4px">
+                        <a href="/resume">
+                          <span><i style="font-size:18px;margin-right:10px" class="fa-light fa-file-lines"></i></span>
+                          Resume
+                        </a>
+                      </li>
+                      <li class=" false false  " style="padding-top:5px;padding-bottom:4px">
+                        <a href="/portfolio">
+                          <span><i style="font-size:18px;margin-right:10px" class="fa-light fa-briefcase"></i></span>
+                          Works
+                        </a>
+                      </li>
+                      <li class=" false false  " style="padding-top:5px;padding-bottom:4px">
+                        <a href="/blog">
+                          <span><i style="font-size:18px;margin-right:10px" class="fa-brands fa-blogger"></i></span>
+                          Blogs
+                        </a>
+                      </li>
+                      <li class=" mean-last false  " style="padding-top:5px;padding-bottom:4px">
+                        <a href="/contact">
+                          <span><i style="font-size:18px;margin-right:10px" class="size-22 fa-light fa-address-book"></i></span>
+                          Contact
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container z-index-3">
+          <div class="row">
+            <div class="col-xxl-3 col-xl-3">
+              <div class="bostami-parsonal-info-area">
+                <div class="bostami-parsonal-info-wrap">
+                  <div class="bostami-parsonal-info-img">
+                    <img alt="avatar" loading="lazy" width="240" height="240" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fassets%2Fimg%2Fparsonal-info%2Fparson-img-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fparsonal-info%2Fparson-img-1.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fparsonal-info%2Fparson-img-1.png&amp;w=640&amp;q=75" />
+                  </div>
+                  <h4 class="bostami-parsonal-info-name">
+                    <a href="#">Monalisa Ashley</a>
+                  </h4>
+                  <span class="bostami-parsonal-info-bio mb-15">Ui/Ux Designer</span>
+                  <ul class="bostami-parsonal-info-social-link mb-30">
+                    <li>
+                      <a style="color:#1773EA" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a style="color:#1C9CEA" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a style="color:#e12a72" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a style="color:#144679" href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="bostami-parsonal-info-contact mb-30">
+                    <div class="bostami-parsonal-info-contact-item">
+                      <div style="color:#E93B81;font-size:22px" class="icon">
+                        <i class="fa-regular fa-mobile"></i>
+                      </div>
+                      <div class="text">
+                        <span>Phone</span>
+                        <p>+123 456 7890</p>
+                      </div>
+                    </div>
+                    <div class="bostami-parsonal-info-contact-item">
+                      <div style="color:#6AB5B9;font-size:22px" class="icon">
+                        <i class="fa-regular fa-envelope-open-text"></i>
+                      </div><div class="text">
+                        <span>Email</span>
+                        <p>example@mail.com</p>
+                      </div>
+                    </div>
+                    <div class="bostami-parsonal-info-contact-item">
+                      <div style="color:#FD7590;font-size:22px" class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                      </div>
+                      <div class="text">
+                        <span>Location</span>
+                        <p>Hong kong china</p>
+                      </div>
+                    </div>
+                    <div class="bostami-parsonal-info-contact-item">
+                      <div style="color:#C17CEB;font-size:22px" class="icon">
+                        <i class="fa-light fa-calendar-days"></i>
+                      </div>
+                      <div class="text">
+                        <span>Birthday</span>
+                        <p>May 27, 1990</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bostami-parsonal-info-btn">
+                    <a class="btn-1" href="/cv.pdf" download="">
+                      <span style="color:#fff" class="icon">
+                        <i class="fa-regular fa-download"></i>
+                      </span>
+                      download cv
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-8 col-xl-9">
+              <div class="bostami-page-content-wrap">
+                <div class="section-wrapper pl-60 pr-60 pt-60">
+                  <div class="bostami-page-title-wrap mb-15">
+                    <h2 class="page-title">about</h2>
+                    <p>I'm Creative Director and UI/UX Designer
+                      from Sydney, Australia, working in web development and print media. I enjoy
+                      turning complex problems into simple, beautiful and intuitive designs.</p>
+                    <p>My aim is to bring across your message and
+                      identity in the most creative way. I created web design for many famous brand
+                      companies.</p>
+                  </div>
+                </div>
+                <div class="section-wrapper pl-60 pr-60">
+                  <div class="bostami-section-title-wrap mb-30">
+                    <h3 class="section-title">What I do!</h3>
+                  </div>
+                  <div class="bostami-what-do-wrap mb-30">
+                    <div class="row">
+                      <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="bostami-what-do-item bg-prink ">
+                          <div class="icon" style="margin:0 auto">
+                            <img alt="feature" loading="lazy" width="130" height="40" decoding="async" data-nimg="1" style="color:transparent;margin:0 auto" src="/assets/img/design.svg" />
+                          </div>
+                          <div class="text">
+                            <h4 class="title">Ui/Ux Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="bostami-what-do-item bg-catkrill ">
+                          <div class="icon" style="margin:0 auto">
+                            <img alt="feature" loading="lazy" width="130" height="40" decoding="async" data-nimg="1" style="color:transparent;margin:0 auto" src="/assets/img/app-development.svg" />
+                          </div>
+                          <div class="text">
+                            <h4 class="title">App Development</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="bostami-what-do-item bg-catkrill ">
+                          <div class="icon" style="margin:0 auto">
+                            <img alt="feature" loading="lazy" width="130" height="40" decoding="async" data-nimg="1" style="color:transparent;margin:0 auto" src="/assets/img/photograph.svg" />
+                          </div>
+                          <div class="text">
+                            <h4 class="title">Photography</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="bostami-what-do-item bg-prink ">
+                          <div class="icon" style="margin:0 auto">
+                            <img alt="feature" loading="lazy" width="130" height="40" decoding="async" data-nimg="1" style="color:transparent;margin:0 auto" src="/assets/img/webdev.svg" />
+                          </div>
+                          <div class="text">
+                            <h4 class="title">Web Development</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <div class="section-wrapper bg-light-white-2 pt-45 pb-60 pl-60 pr-60">
+                  <div class="bostami-section-title-wrap text-center mb-50">
+                    <h3 class="section-title">clinet</h3>
+                  </div>
+                  <div class="bostami-client-slider">
+                    <div class="swiper-container client_slide_active">
+                      <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events">
+                        <div class="swiper-wrapper" style="transition-duration: 300ms; transform: translate3d(-1064px, 0px, 0px);">
+                          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next swiper-slide-duplicate-active swiper-slide-duplicate-prev" data-swiper-slide-index="3"><div class="swiper-slide">
+                            <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                          </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="4" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide" data-swiper-slide-index="0" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide" data-swiper-slide-index="1" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="3" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="4" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide" data-swiper-slide-index="5" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide" data-swiper-slide-index="6" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide" data-swiper-slide-index="7" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-2.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-3.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3" style="width: 122px; margin-right: 30px;">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-4.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next swiper-slide-duplicate-active swiper-slide-duplicate-prev" data-swiper-slide-index="4">
+                            <div class="swiper-slide">
+                              <img alt="client" loading="lazy" width="264" height="62" decoding="async" data-nimg="1" class="bostami-client-slider-logo" srcset="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimg%2Fclient%2Fclient-logo-1.png&amp;w=640&amp;q=75" style="color: transparent; height: 62px; width: fit-content;" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> */}
+                <div class="footer-copyright text-center pt-25 pb-25">
+                  <span>© 2024 All Rights Reserved by elite-themes24.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-1 d-xxl-block d-none">
+              <div class="bostami-main-menu-wrap">
+                <nav class="bastami-main-menu main_menu">
+                  <ul>
+                    <li class="active  ">
+                      <a href="/home-1">
+                        <span><i style="font-size:25px" class="fa-light fa-user"></i></span>
+                        About
+                      </a>
+                    </li>
+                    <li class="false  ">
+                      <a href="/resume">
+                        <span><i style={"font-size:25px"} class="fa-light fa-file-lines"></i></span>
+                        Resume
+                      </a>
+                    </li>
+                    <li class="false  ">
+                      <a href="/portfolio">
+                        <span><i style={"font-size:25px"} class="fa-light fa-briefcase"></i></span>
+                        Works
+                      </a>
+                    </li>
+                    <li class="false  ">
+                      <a href="/blog">
+                        <span><i style={"font-size:25px"} class="fa-brands fa-blogger"></i></span>
+                        Blogs
+                      </a>
+                    </li>
+                    <li class="false  ">
+                      <a href="/contact">
+                        <span>
+                          <i style={"font-size:25px"} class="size-22 fa-light fa-address-book"></i>
+                        </span>
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default App;

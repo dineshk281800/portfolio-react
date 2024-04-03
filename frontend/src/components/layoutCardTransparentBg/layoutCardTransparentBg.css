@@ -1,0 +1,258 @@
+.modals {
+    /* position: fixed; */
+    z-index: 1055;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    /* display: block; */
+    transition: all 0.4s ease 0s;
+    visibility: visible;
+}
+
+.modals-box {
+    position: fixed;
+    overflow: hidden;
+}
+
+.fade:not(.show) {
+    opacity: 0;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
+.fade {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.modals.show .modals-dialog {
+    transform: none;
+}
+
+.modals-box .modals-dialog {
+    position: relative;
+    margin: 1.75rem;
+    pointer-events: none;
+
+    max-width: 750px;
+    width: auto;
+    height: 90vh;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 5vh auto;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    /* z-index: 100; */
+}
+
+.modals-dialog-centered {
+    display: flex;
+    align-items: center;
+}
+
+.modals-box .modals-dialog .modals-content {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    position: relative;
+    padding-right: 15px;
+    border-radius: 0;
+    border: none;
+    pointer-events: auto;
+}
+
+.modals-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+h6 {
+    text-transform: capitalize;
+}
+
+.project-title {
+    font-size: 28px;
+    text-align: center;
+    /* color: #f62121; */
+    color: #E60E5C;
+    margin-bottom: 3rem;
+}
+
+.modals-table {
+    margin-bottom: 20px;
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.rows>* {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+}
+
+.modals-table-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+h3 {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.modals-table-text i {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fa-regular {
+    font-weight: 400;
+}
+
+.modals-table-text span {
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+.modals-para {
+    margin-bottom: 2rem;
+}
+
+.modals-para p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 25px;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.modals-para p ul {
+    padding: 0;
+}
+
+.modals-img {
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.modals-img img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 450px;
+}
+
+.modals-header {
+    width: fit-content !important;
+    z-index: 1100 !important;
+    display: inline-block;
+    position: fixed;
+    right: 15%;
+    top: 5%;
+}
+
+.modals-header .close {
+    background: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid;
+    line-height: 38px;
+    transition: .3s;
+}
+
+@media only screen and (min-width: 1060px) and (max-width: 1330px) {
+    .modals-header {
+        right: 10%;
+    }
+}
+
+@media only screen and (min-width: 940px) and (max-width: 1059px) {
+    .modals-header {
+        right: 5%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 940px) {
+    .modals-header {
+        right: 4%;
+    }
+
+    .modals-box .modals-dialog {
+        max-width: 650px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 940px) {
+    .modals-header {
+        right: 4%;
+    }
+
+    .modals-box .modals-dialog {
+        max-width: 650px;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+    .modals-header {
+        right: 4%;
+    }
+
+    .modals-box .modals-dialog {
+        max-width: 520px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 650px) {
+    .project-title {
+        font-size: 24px;
+    }
+
+    .modals-header {
+        right: 4%;
+    }
+
+    .modals-box .modals-dialog {
+        max-width: 400px;
+    }
+
+    .modals-para p {
+        font-size: 1rem;
+    }
+
+    .modals-table-text {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:780px) {
+
+    .rows {
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+
+    .column-3 {
+        grid-column: 1/span 2;
+    }
+
+}

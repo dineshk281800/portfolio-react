@@ -1,0 +1,157 @@
+.bostami-page-content-wrap {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fillter-btn-wrap {
+    text-align: right;
+}
+
+.fillter-btn-wrap .fillter-btn {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0 18px;
+    cursor: pointer;
+}
+
+.fillter-btn-wrap .fillter-btn:is(.is-checked) {
+    color: #1b74e4;
+}
+
+.project-flex-box {
+    display: flex;
+    flex-direction: row;
+    place-content: stretch center;
+    align-content: stretch;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 0px;
+}
+
+.inner-project-flex-box {
+    display: flex;
+    flex-direction: column;
+    place-content: stretch flex-start;
+    flex: 1 1 0%;
+    width: 0px;
+    gap: 0px;
+}
+
+.isotop-item {
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+}
+
+.grid-sizer,
+.isotop-item {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.project-box {
+    width: 100%;
+    opacity: 1;
+    transform: none;
+}
+
+.isotop-item>div {
+    margin-bottom: 20px;
+}
+
+.fillter-item {
+    display: inline-block;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.bg-catkrill {
+    background-color: #eef5fa;
+    width: 100%;
+}
+
+.fillter-item .img {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 17px;
+    display: block;
+    transition: .1s;
+}
+
+.fillter-item:hover img {
+    transform: scale(1.1);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.fillter-item .img img {
+    color: transparent;
+    width: 100%;
+    height: fit-content;
+    /* transition: 0.3s; */
+}
+
+.fillter-item .item-title {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fillter-item .item-title a {
+    text-decoration: none;
+}
+
+.fillter-item .item-subtitle {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.single {
+    display: none;
+    /* visibility: hidden; */
+}
+
+.double {
+    display: block;
+    /* visibility: visible; */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .double {
+        display: none;
+        /* visibility: hidden; */
+    }
+
+    .single {
+        display: block;
+        /* visibility: visible; */
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .double {
+        display: none;
+        /* visibility: hidden; */
+    }
+
+    .single {
+        display: block;
+        /* visibility: visible; */
+    }
+}
+
+@media (max-width: 767px) {
+    .fillter-btn-wrap {
+        text-align: left;
+    }
+}

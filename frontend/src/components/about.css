@@ -1,0 +1,146 @@
+.bostami-page-content-wrap {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bostami-page-title-wrap p {
+    max-width: 632px;
+}
+
+.footer-copyright {
+    background-color: #f3f6f6;
+    width: 100%;
+}
+
+
+.textContainer p,
+.educationDetails,
+.detailsContainer p {
+    font-size: 1.125rem;
+}
+
+.tabTitles {
+    display: flex;
+    margin: 1rem 0;
+    color: #000;
+}
+
+.tabLinks {
+    margin-right: 5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    position: relative;
+    color: #000;
+}
+
+.tabLinks::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    /* background: #1b74e4; */
+    background: #E60E5C;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.5s;
+}
+
+.tabLinks.activeLink::after {
+    width: 100%;
+}
+
+.tabContents {
+    display: none;
+}
+
+.tabContents.activeTab {
+    display: block;
+}
+
+.detailsContainer {
+    height: 14.5rem;
+}
+
+.tabContents ul li {
+    list-style: none;
+}
+
+.detailsContainer p {
+    margin: 8px 0;
+    font-size: 1.125rem;
+}
+
+.detailHeading {
+    /* color: #1b74e4; */
+    color: #E60E5C;
+    font-size: 1.2rem;
+    /* font-size: 1.5rem; */
+    line-height: 1rem;
+}
+
+.skills {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    /* font-size: 1.3rem; */
+}
+
+.ul li {
+    margin-top: 5px;
+    padding-left: 2rem;
+    font-size: 1.125rem;
+    /* font-size: 1.3rem; */
+    color: #44566c;
+}
+
+.topicContainer {
+    text-align: center;
+}
+
+/* .educationDetails {
+    padding-bottom: 6px;
+} */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-wrapper:is(.pr-60) {
+        padding-right: 40px;
+    }
+
+    .section-wrapper:is(.pl-60) {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-wrapper:is(.pr-60) {
+        padding-right: 20px;
+    }
+
+    .section-wrapper:is(.pl-60) {
+        padding-left: 20px;
+    }
+
+    .tabLinks {
+        font-size: 1.3rem;
+    }
+
+    .textContainer p,
+    .educationDetails,
+    .detailsContainer p {
+        font-size: 1rem;
+    }
+
+    .detailsContainer {
+        height: 15rem;
+    }
+
+    .detailHeading {
+        font-size: 1.1rem;
+        line-height: 14px;
+    }
+
+    .ul li {
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+}

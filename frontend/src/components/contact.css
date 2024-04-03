@@ -1,0 +1,79 @@
+.bostami-page-content-wrap {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contact-area {
+    padding: 60px 45px;
+    border-radius: 20px;
+}
+
+.bg-light-white-2 {
+    background-color: #f8fbfb;
+}
+
+.contact-area .contact-title {
+    font-size: 25px;
+    font-weight: 400;
+    color: #44566c;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+}
+
+body .form-input-item input,
+body .form-input-item textarea {
+    color: #000;
+}
+
+/* .contact-form .input-lebel:is(.height) {
+    color: rgb(254, 120, 120);
+} */
+
+.contact-form .input-lebel {
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+/* .contact-form .input-box:is(.height) {
+    height: 40px;
+    border-color: rgb(254, 120, 120);
+} */
+
+.contact-form .input-box {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #b5b5b5;
+    background: transparent;
+    height: 40px;
+    transition: .3s;
+    transform-origin: top;
+    font-size: 1rem;
+}
+
+label {
+    cursor: pointer;
+}
+
+.form-btn {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #1a1a1a;
+    height: 50px;
+    width: 133px;
+    border: 1px solid #44566c;
+    border-radius: 12px;
+    background-color: #f8fbfb;
+}
+
+.footer-copyright {
+    background-color: #f3f6f6;
+    width: 100%;
+}

@@ -1,0 +1,264 @@
+.bostami-parsonal-info-area {
+    width: 400px;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-left: -100px;
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 100px;
+}
+
+.bostami-parsonal-info-img {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: -180px auto 21px;
+}
+
+.bostami-parsonal-info-img img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    color: transparent;
+}
+
+.bostami-parsonal-info-name {
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--common-black);
+    font-family: Roboto Slab, serif;
+    margin-bottom: 8px;
+}
+
+.bostami-parsonal-info-bio {
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    background-color: #f3f6f6;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.bostami-parsonal-info-social-link {
+    /* width: 230px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7.5px;
+    margin: 0 auto 30px;
+}
+
+.bostami-parsonal-info-social-link li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.bostami-parsonal-info-social-link li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #f3f6f6;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.7rem;
+}
+
+/* .bostami-parsonal-info-social-link li a {
+    color: #1c9cea;
+} */
+
+.linkedin {
+    color: #144679;
+}
+
+.github {
+    color: #000;
+}
+
+.bostami-parsonal-info-contact {
+    background-color: #f3f6f6;
+    border-radius: 16px;
+    text-align: left;
+    padding: 20px 20px;
+    /* padding: 1rem 14px; */
+}
+
+.bostami-parsonal-info-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bostami-parsonal-info-contact-item .icon {
+    flex: 0 0 auto;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 44px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .08);
+    transition: .3s;
+}
+
+.phone {
+    color: rgb(233, 59, 129);
+    font-size: 22px;
+}
+
+.email {
+    color: rgb(106, 181, 185);
+    font-size: 22px;
+}
+
+.location {
+    color: rgb(253, 117, 144);
+    font-size: 22px;
+}
+
+.birthday {
+    color: rgb(193, 124, 235);
+    font-size: 22px;
+}
+
+.bostami-parsonal-info-contact-item .text {
+    display: inline-block;
+}
+
+.bostami-parsonal-info-contact-item .text span {
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    /* text-transform: capitalize; */
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.bostami-parsonal-info-contact-item .text p {
+    font-size: 16px;
+    /* font-size: 15px; */
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    /* text-transform: capitalize; */
+    margin-bottom: 0;
+}
+
+.btn-1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    /* background-color: #1b74e4; */
+    background-color: #E60E5C;
+    line-height: 27px;
+    padding: 14px 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.btn-1,
+.btn-1 .icon {
+    display: inline-block;
+}
+
+.btn-1 .icon {
+    margin-right: 5px;
+    transition: .3s;
+}
+
+.download {
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .bostami-parsonal-info-area {
+        width: 350px;
+        margin-left: -40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .bostami-parsonal-info-area {
+        width: 100%;
+        margin-left: 0;
+        padding: 30px 15px;
+        top: -40px;
+    }
+
+    .bostami-parsonal-info-img {
+        width: 210px;
+        height: 210px;
+        margin-top: 0;
+    }
+
+    .bostami-parsonal-info-name {
+        font-size: 20px;
+    }
+
+    .bostami-parsonal-info-contact {
+        padding: 20px 15px;
+    }
+
+    .bostami-parsonal-info-contact-item .icon {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        transition: .3s;
+    }
+
+    .bostami-parsonal-info-contact-item .text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px),
+only screen and (min-width: 1200px) and (max-width: 1399px),
+only screen and (min-width: 768px) and (max-width: 991px) {
+    .bostami-parsonal-info-bio {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bostami-parsonal-info-area {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+        top: -40px;
+    }
+
+    .bostami-parsonal-info-img {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .bostami-parsonal-info-area {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+        padding: 40px 20px;
+    }
+
+    .bostami-parsonal-info-img {
+        margin-top: 0;
+    }
+}
