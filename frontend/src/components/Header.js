@@ -35,9 +35,9 @@ const Header = () => {
                             </div>
                             <div className="col-6">
                                 <div className="bostami-header-menu-btn text-right">
-                                    <div className="dark-btn dark-btn-stored mode-btn">
+                                    {/* <div className="dark-btn dark-btn-stored mode-btn">
                                         <i className={`${true ? "moonicon fa-solid fa-moon" : "sunicon fa-light fa-sun-bright"}`}></i>
-                                    </div>
+                                    </div> */}
                                     <div className={`menu-btn toggle_menu ${mobileView ? "active" : "false"}`} onClick={menuViewHandler}>
                                         <span></span>
                                         <span></span>
@@ -69,31 +69,6 @@ const Header = () => {
                                                 </a>
                                             </li>
                                         ))}
-
-                                        {/* <li className={` false ${(location === detail.path || active === detail.path) ? "active" : "false"}`}>
-                                            <a href="/">
-                                                <span>
-                                                    <i className="fa-regular fa-user"></i>
-                                                </span>
-                                                About
-                                            </a>
-                                        </li>
-                                        <li className=" false false ">
-                                            <a href="/works">
-                                                <span>
-                                                    <i className="fa-solid fa-briefcase"></i>
-                                                </span>
-                                                Works
-                                            </a>
-                                        </li>
-                                        <li className=" mean-last false ">
-                                            <a href="/contact">
-                                                <span>
-                                                    <i className="size-22 fa-solid fa-address-book"></i>
-                                                </span>
-                                                Contact
-                                            </a>
-                                        </li> */}
                                     </ul>
                                 </nav>
                             </div>
