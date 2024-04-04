@@ -77,3 +77,19 @@ label {
     background-color: #f3f6f6;
     width: 100%;
 }
+
+@media(max-width:410px) {
+    .mb-60 {
+        margin-bottom: 25px;
+    }
+
+    .contact-area {
+        padding: 30px 30px;
+        /* border-radius: 20px; */
+        margin-bottom: 2rem;
+    }
+
+    .contact-area .contact-title {
+        font-size: 20px;
+    }
+}

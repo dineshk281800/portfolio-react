@@ -128,7 +128,7 @@ h3 {
 
 .modals-table-text span {
     font-weight: 500;
-    margin-left: 6px;
+    /* margin-left: 6px; */
 }
 
 .modals-para {
@@ -202,16 +202,6 @@ h3 {
     }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 940px) {
-    .modals-header {
-        right: 4%;
-    }
-
-    .modals-box .modals-dialog {
-        max-width: 650px;
-    }
-}
-
 @media only screen and (min-width: 650px) and (max-width: 800px) {
     .modals-header {
         right: 4%;
@@ -222,25 +212,62 @@ h3 {
     }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 650px) {
-    .project-title {
-        font-size: 24px;
+@media only screen and (min-width: 411px) and (max-width: 650px) {
+
+    .modals-box .modals-dialog {
+        width: 80%;
+        max-width: 650px;
+        height: 80vh;
+        padding: 20px;
     }
 
-    .modals-header {
-        right: 4%;
+    .project-title {
+        font-size: 24px;
+        margin-bottom: 1.5rem;
     }
 
     .modals-box .modals-dialog {
         max-width: 400px;
     }
 
-    .modals-para p {
-        font-size: 1rem;
+    .modals-table-text {
+        font-size: 14px;
     }
 
-    .modals-table-text {
-        font-size: 15px;
+    /* .modals-table-text span {
+        font-weight: 400;
+    } */
+
+    .modals-table-text i {
+        margin-right: 10px;
+    }
+
+    .modals-para {
+        margin-bottom: 1rem;
+    }
+
+    .modals-para p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        padding-left: 5px;
+    }
+
+    .column-1,
+    .column-2,
+    .column-3 {
+        padding: 0 4px;
+    }
+
+    .modals-header {
+        right: 4%;
+    }
+
+    .modals-header .close {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        line-height: 10px;
     }
 }
 
@@ -255,4 +282,68 @@ h3 {
         grid-column: 1/span 2;
     }
 
+}
+
+@media(max-width:410px) {
+    .modals-box .modals-dialog {
+        /* position: relative;
+        margin: 1.75rem; */
+        width: 80%;
+        max-width: 650px;
+        height: 80vh;
+        padding: 20px;
+    }
+
+
+    .project-title {
+        font-size: 22px;
+        margin-bottom: 1.5rem;
+    }
+
+    .modals-box .modals-dialog .modals-content {
+        padding-right: 10px;
+    }
+
+    .modals-table-text {
+        font-size: 14px;
+    }
+
+    /* .modals-table-text span {
+        font-weight: 400;
+    } */
+
+    .modals-table-text i {
+        margin-right: 10px;
+    }
+
+    .modals-para {
+        margin-bottom: 1rem;
+    }
+
+    .modals-para p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        padding-left: 5px;
+    }
+
+    .column-1,
+    .column-2,
+    .column-3 {
+        padding: 0 4px;
+    }
+
+    .modals-header {
+        right: 3%;
+    }
+
+    .modals-header .close {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        color: #fff;
+        border: 1px solid;
+        line-height: 10px;
+        transition: .3s;
+    }
 }

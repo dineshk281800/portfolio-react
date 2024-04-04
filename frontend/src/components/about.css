@@ -16,7 +16,9 @@
 
 .textContainer p,
 .educationDetails,
-.detailsContainer p {
+.detailsContainer p,
+.skillsContainer ul li,
+.ul li {
     font-size: 1.125rem;
 }
 
@@ -38,7 +40,6 @@
     content: "";
     width: 0;
     height: 3px;
-    /* background: #1b74e4; */
     background: #E60E5C;
     position: absolute;
     left: 0;
@@ -68,28 +69,21 @@
 
 .detailsContainer p {
     margin: 8px 0;
-    font-size: 1.125rem;
 }
 
 .detailHeading {
-    /* color: #1b74e4; */
     color: #E60E5C;
     font-size: 1.2rem;
-    /* font-size: 1.5rem; */
     line-height: 1rem;
 }
 
-.skills {
+.skillsContainer ul li {
     margin-top: 1rem;
-    font-size: 1.125rem;
-    /* font-size: 1.3rem; */
 }
 
 .ul li {
     margin-top: 5px;
     padding-left: 2rem;
-    font-size: 1.125rem;
-    /* font-size: 1.3rem; */
     color: #44566c;
 }
 
@@ -140,7 +134,9 @@
 
     .textContainer p,
     .educationDetails,
-    .detailsContainer p {
+    .detailsContainer p,
+    .ul li,
+    .skillsContainer ul li {
         font-size: 1rem;
     }
 
@@ -155,11 +151,6 @@
 
     .ul li {
         padding-left: 1rem;
-        font-size: 1rem;
-    }
-
-    .skillsContainer ul li {
-        font-size: 1rem;
     }
 }
 
@@ -179,10 +170,9 @@
 
     .textContainer p,
     .educationDetails,
-    .detailsContainer p {
-        font-size: 14px;
-    }
-
+    .detailsContainer p,
+    .ul li,
+    .skillsContainer ul li,
     .bostami-page-title-wrap p {
         font-size: 14px;
     }
@@ -193,15 +183,44 @@
 
     .ul li {
         padding-left: 14px;
-        font-size: 14px;
     }
 
     .detailHeading {
         font-size: 1rem;
         line-height: 13px;
     }
+}
 
-    .skillsContainer ul li {
+@media (max-width:410px) {
+    .tabLinks {
+        margin-right: 1rem;
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+
+    .detailsContainer .skillsContainer ul {
+        padding-left: 10px;
+    }
+
+    .detailHeading {
         font-size: 14px;
+        line-height: 10px;
+    }
+
+    .textContainer p,
+    .educationDetails,
+    .detailsContainer p,
+    .skillsContainer ul li,
+    .ul li,
+    .bostami-page-title-wrap p {
+        font-size: 12px;
+    }
+
+    .detailsContainer p {
+        margin: 0;
+    }
+
+    .ul li {
+        padding-left: 12px;
     }
 }

@@ -271,3 +271,42 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
         margin-top: 0;
     }
 }
+
+@media (max-width:410px) {
+
+    .bostami-parsonal-info-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .bostami-parsonal-info-contact-item .text p {
+        font-size: 12px;
+    }
+
+    .bostami-parsonal-info-contact-item .text span {
+        font-size: 11px;
+    }
+
+    .bostami-parsonal-info-contact-item .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .phone,
+    .email,
+    .location,
+    .birthday {
+        font-size: 20px;
+    }
+
+    .btn-1 {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .btn-1 .icon {
+        font-size: 1.1rem;
+    }
+}

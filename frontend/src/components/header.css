@@ -143,8 +143,6 @@
 }
 
 .meanmenu-reveal {
-    /* right: 0px;
-    left: auto; */
     display: inline;
 }
 
@@ -153,7 +151,7 @@
     background-color: #fff;
 }
 
-ul {
+.mean-nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -165,12 +163,10 @@ ul {
 }
 
 .mean-bar .mean-nav ul li:is(.active) a {
-    /* background-color: #1b74e4; */
     color: #E60E5C;
 }
 
 .mean-bar .mean-nav ul li:is(.false) a {
-    /* background-color: #1b74e4; */
     color: #44566c;
 }
 
@@ -212,5 +208,29 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 @media (max-width: 767px) {
     .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li {
         padding: 0 40px;
+    }
+
+    .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a span {
+        padding: 8px 0;
+    }
+}
+
+@media (max-width:410px) {
+    .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a span {
+        /* display: inline; */
+        padding: 8px 0;
+    }
+
+    .mean-nav ul li a span i {
+        font-size: 1.3rem;
+    }
+
+    .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a {
+        font-size: 1rem;
+        padding: 8px 70px;
+    }
+
+    .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li {
+        padding: 0 0px;
     }
 }

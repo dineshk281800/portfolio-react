@@ -8,15 +8,15 @@ const Works = () => {
         {
             "title": "MY WORK",
             "topic": "ShopIT",
-            "project": "E-commerce Website",
+            "project": " E-commerce Website",
             "description": <ul>
                 <li>ShopIt is e-commerece application. It is very useful for seller and customer.</li>
                 <li>Customer can be easy to buy the Products and delivery to home.</li>
             </ul>,
-            "website": "https://kind-gold-rooster-wig.cyclic.app/",
+            "website": " https://kind-gold-rooster-wig.cyclic.app/",
             "domain": " www.ShopIT.com",
-            "github": "https://github.com/dineshk281800/ShopIt",
-            "language": "React, Express, MongoDB, NodeJS",
+            "github": " https://github.com/dineshk281800/ShopIt",
+            "language": " React, Express, MongoDB, NodeJS",
             "image": "./image/shopit.png",
             "image2": "./image/shopping.jpg",
             "level": "Advance"
@@ -24,75 +24,75 @@ const Works = () => {
         {
             "title": "MY WORK",
             "topic": "Destination App",
-            "project": "Delivery Website",
+            "project": " Delivery Website",
             "description": <ul>
                 <li>The destination calculator will provide you with a brief destination path
                     as well as the date your package will arrive at its destination.</li>
             </ul>,
-            "website": "https://destination-date281800.netlify.app/",
+            "website": " https://destination-date281800.netlify.app/",
             "domain": " www.destination.com",
-            "github": "https://github.com/dineshk281800/destination-date",
-            "language": "HTML, CSS, JavaScript",
+            "github": " https://github.com/dineshk281800/destination-date",
+            "language": " HTML, CSS, JavaScript",
             "image": "./image/delivery.png",
             "level": "Intermediate"
         },
         {
             "title": "MY WORK",
             "topic": "Tip Calculator",
-            "project": "Calculator Website",
+            "project": " Calculator Website",
             "description": <ul>
                 <li>Tip calculator will tip the bills with
                     different percentage for the users. </li>
             </ul>,
-            "website": "https://tip-calculator281800.netlify.app/",
+            "website": " https://tip-calculator281800.netlify.app/",
             "domain": " www.tip-calculator.com",
-            "github": "https://github.com/dineshk281800/tip-calculator",
-            "language": "HTML, CSS, JavaScript",
+            "github": " https://github.com/dineshk281800/tip-calculator",
+            "language": " HTML, CSS, JavaScript",
             "image": "./image/TipCalculator.png",
             "level": "Intermediate"
         },
         {
             "title": "MY WORK",
             "topic": "Rock Paper Scissors",
-            "project": "Entertainment Website",
+            "project": " Entertainment Website",
             "description": <ul>
                 <li>This project is a web-based implementation of the classNameic Rock Paper Scissors game. Users can interact with the game through an intuitive interface, playing against the computer. </li>
             </ul>,
-            "website": "https://rock-paper-scissors281800.netlify.app/",
+            "website": " https://rock-paper-scissors281800.netlify.app/",
             "domain": " www.Rock-Paper-Scissor.com",
-            "github": "https://github.com/dineshk281800/rock-paper-scissor",
-            "language": "HTML, CSS, JavaScript",
+            "github": " https://github.com/dineshk281800/rock-paper-scissor",
+            "language": " HTML, CSS, JavaScript",
             "image": "./image/RockPaperScissor.png",
             "level": "Intermediate"
         },
         {
             "title": "MY WORK",
             "topic": "Guess My Number",
-            "project": "Entertainment Website",
+            "project": " Entertainment Website",
             "description": <ul>
                 <li>I Creating entertaining games build with HTML, CSS and JavaScript. </li>
                 <li>In this game, System generate random number within the limit and you guess that random number.</li>
             </ul>,
-            "website": "https://guess-my-number281800.netlify.app/",
+            "website": " https://guess-my-number281800.netlify.app/",
             "domain": " www.Guess-My-Number.com",
-            "github": "https://github.com/dineshk281800/guess-my-number",
-            "language": "HTML, CSS, JavaScript",
+            "github": " https://github.com/dineshk281800/guess-my-number",
+            "language": " HTML, CSS, JavaScript",
             "image": "./image/GuessNumber.png",
             "level": "Intermediate"
         },
         {
             "title": "MY WORK",
             "topic": "Weather App",
-            "project": "Weather Casting Website",
+            "project": " Weather Casting Website",
             "description": <ul>
                 <li>Utilizing React's component-based architecture to create a dynamic and user-friendly interface. </li>
                 <li>Fetching real-time weather data from a weather API like OpenWeatherMap or Weather Underground. </li>
                 <li>Users can search for weather information based on city name. </li>
             </ul>,
-            "website": "https://weather-app281800.netlify.app/",
+            "website": " https://weather-app281800.netlify.app/",
             "domain": " www.weather-app.com",
-            "github": "https://github.com/dineshk281800/weather",
-            "language": "React",
+            "github": " https://github.com/dineshk281800/weather",
+            "language": " React",
             "image": "./image/Weather.png",
             "level": "Intermediate"
         },
@@ -113,28 +113,29 @@ const Works = () => {
         {
             "title": "MY WORK",
             "topic": "YouTube Clone",
-            "project": "Social-Media Website",
+            "project": " Social-Media Website",
             "description": <ul>
                 <li>I create a basic YouTube UI with responsiveness using media query. </li>
             </ul>,
-            "website": "https://youtube-clone-in.netlify.app/",
+            "website": " https://youtube-clone-in.netlify.app/",
             "domain": " www.YouTube-clone.com",
-            "github": "https://github.com/dineshk281800/youtube",
-            "language": "HTML, CSS",
+            "github": " https://github.com/dineshk281800/youtube",
+            "language": " HTML, CSS",
             "image": "./image/YoutubeImg.png",
             "level": "Beginner"
         },
         {
             "title": "MY WORK",
-            "topic": "Digital Clock",
+            "topic": " Digital Clock",
+            "project": " Website",
             "description": <ul>
                 <li>Building interactive user interfaces with HTML, CSS and Utilizing JavaScript for dynamic content updates and functionality.</li>
                 <li>Working with JavaScript's Date object to retrieve and display the current time. </li>
             </ul>,
-            "website": "https://digital-watch-clock281800.netlify.app/",
+            "website": " https://digital-watch-clock281800.netlify.app/",
             "domain": " www.Digital-Clock.com",
-            "github": "https://github.com/dineshk281800/digital-clock",
-            "language": "HTML, CSS, JavaScript",
+            "github": " https://github.com/dineshk281800/digital-clock",
+            "language": " HTML, CSS, JavaScript",
             "image": "./image/DigitalWatch.png",
             "level": "Beginner"
         },

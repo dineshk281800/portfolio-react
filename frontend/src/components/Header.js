@@ -62,12 +62,12 @@ const Header = () => {
                                     <ul>
                                         {nav.map((detail, index) => (
                                             <li key={index} className={`${(location === detail.path || active === detail.path) ? "active" : "false"}`}>
-                                                <Link to={detail.path} onClick={() => toggleHandler(detail.path)}>
+                                                <a href={detail.path} onClick={() => toggleHandler(detail.path)}>
                                                     <span>
                                                         <i className={`${detail.icon}`}></i>
                                                     </span>
                                                     {detail.menu}
-                                                </Link>
+                                                </a>
                                             </li>
                                         ))}
                                     </ul>

@@ -155,3 +155,22 @@
         text-align: left;
     }
 }
+
+@media (max-width:410px) {
+    .fillter-btn-wrap .fillter-btn {
+        font-size: 11px;
+        padding: 0 4px;
+    }
+
+    .fillter-item .item-title {
+        font-size: 18px;
+    }
+
+    .fillter-item .item-subtitle {
+        font-size: 15px;
+    }
+
+    .footer-copyright span {
+        font-size: 14px;
+    }
+}
